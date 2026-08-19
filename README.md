@@ -1,19 +1,23 @@
-<<<<<<< HEAD
-# DSA — C++
+# URL Shortener
 
-Data structures and algorithms implemented in C++.
+A high-performance URL shortener service with click analytics, built with Go and Redis.
 
-## Topics
+## Features
 
-| Folder | Topic |
+- Shorten long URLs with custom aliases
+- Click tracking and analytics
+- Rate limiting per IP
+- URL expiration support
+- RESTful API + simple web UI
+
+## Tech Stack
+
+| Layer | Technology |
 |---|---|
-| [sorting/](sorting/) | Merge sort, quick sort, heap sort |
-| [stacks/](stacks/) | Stack operations, balanced parentheses |
-| [queues/](queues/) | Queue, priority queue, deque |
-| [linked-lists/](linked-lists/) | Singly, doubly, circular |
-| [trees/](trees/) | BST, AVL, traversals |
-| [graphs/](graphs/) | BFS, DFS, Dijkstra, topological sort |
-| [dynamic-programming/](dynamic-programming/) | Knapsack, LCS, coin change |
+| **Backend** | Go |
+| **Cache** | Redis |
+| **Database** | PostgreSQL |
+| **Containerization** | Docker, Docker Compose |
 
 ## Status
 
@@ -22,6 +26,3 @@ Data structures and algorithms implemented in C++.
 ## License
 
 MIT
-=======
-# java-standard-edition
->>>>>>> 82b491c7a3dd48504590f9a362f467af82c9f056
